@@ -1,0 +1,60 @@
+{
+  "name": "react-native-square-reader-sdk",
+  "version": "0.0.1",
+  "description": "A React Native plugin for Square Reader SDK",
+  "homepage": "https://github.com/square/react-native-square-reader-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/square/react-native-square-reader-sdk.git"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "lint": "eslint ./ --ext .js",
+    "test": "jest"
+  },
+  "keywords": [
+    "react-native",
+    "reader-sdk",
+    "square",
+    "payments"
+  ],
+  "author": "Square, Inc.",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react-native": ">= 0.55.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.4",
+    "react-test-renderer": "18.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "react": "18.1.0",
+    "react-native": "0.70.14"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "modulePathIgnorePatterns": [
+      "reader-sdk-react-native-quickstart"
+    ]
+  },
+  "resolutions": {
+    "**/**/handlebars": "4.5.3",
+    "**/**/logkitty": "^0.7.1",
+    "**/**/minimist": "^0.2.1"
+  }
+}
