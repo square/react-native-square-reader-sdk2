@@ -18,7 +18,7 @@
     "@types/react-dom": "^18.2.14",
     "react": "18.1.0",
     "react-dom": "^18.2.0",
-    "react-native": "0.70.13",
+    "react-native": "0.73.1",
     "react-native-camera-kit": "^13.0.0",
     "react-native-gesture-handler": "^2.9.0",
     "react-native-globalize": "^4.5.1",
